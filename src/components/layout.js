@@ -33,7 +33,12 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main
+          style={{
+            paddingTop: '6rem'
+          }}
+          >
+            {children}</main>
         <footer
           style={{
             marginTop: `2rem`,
