@@ -19,14 +19,6 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/digital/">Go to digital art</Link> <br />
-      <Link to="/traditional">Go to traditional art</Link> <br />
-      <Link to="/cards">Go to cards</Link> <br />
-      <Link to="/about">Go to about</Link>
-      {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br /> */}
-      {/* <Link to="/using-dsg">Go to "Using DSG"</Link> */}
-    </p>
   </Layout>
 )
 
