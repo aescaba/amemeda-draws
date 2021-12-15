@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `amemeda draws`,
     description: `illustrations from amemeda, a designer, developer, and artist`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `@amemeda`,
+    siteUrl: `https://amemeda-draws.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `amemeda draws`,
-        short_name: `amemedadraws`,
+        short_name: `adraws`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
