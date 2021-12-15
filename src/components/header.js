@@ -24,7 +24,7 @@ const links = [
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      // background: `rebeccapurple`,
+      background: `white`,
       marginBottom: `1.45rem`,
       position: 'fixed',
       top: '0',
