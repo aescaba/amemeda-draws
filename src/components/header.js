@@ -27,6 +27,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+              {/* i could make this more efficient later but im really only ever gonna have a few links its FINE!!!! */}
+              <Link to="/digital">Digital</Link>
+        <Link to="/traditional">Traditional</Link>
+        <Link to="/cards">Cards</Link>
+        <Link to="/about">About</Link>
     </div>
   </header>
 )
