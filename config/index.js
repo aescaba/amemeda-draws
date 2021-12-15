@@ -33,8 +33,8 @@ module.exports = {
     },
   
     //-- NAVIGATION SETTINGS -----
-    navLinks: {
-        navbar: [
+    headerLinks: {
+        header: [
             {
             name: "Digital",
             url: "/digital",
