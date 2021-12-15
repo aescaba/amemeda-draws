@@ -45,30 +45,35 @@ const Header = ({ siteTitle }) => (
             // color: `white`,
             textDecoration: `none`,
             float: 'left'
-            
+
           }}
         >
           {siteTitle}
         </Link>
       </h1>
 
-      <ul 
+      <ul
         style={{
           marginLeft: '0',
-          listStyleType:'none',
-          float: 'right'
+          listStyleType: 'none',
+          float: 'right',
+          fontSize: '.75rem'
         }}
-        >
+      >
         {links.map(link => (
-            <li
+          <li
             style={{
               display: 'inline',
               marginRight: '1rem',
-              
+
             }}
-            >
-              <Link to={link.url}>{link.name}</Link></li>
-          )
+          >
+            <Link
+              style={{
+                textDecoration: 'none',
+              }}
+              to={link.url}>{link.name}</Link></li>
+        )
         )}
       </ul>
 
